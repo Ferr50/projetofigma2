@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fontes/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url(fontes/Poppins-Bold.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    background-color: #f5f1ee;
+    width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'poppinsbold';
+    font-size: 20px;
+    color: white;
+    width: 303px;
+    height: 51px;
+    border-radius: 50px;
+    background-color: #5d949e;
+    border: none;
+}
+
+button:hover {
+    opacity: 50%;    
+}
+
+.logo {
+    height: 140px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.texto {
+    font-family: 'poppins';
+    font-size: 15px;
+    color: #20515A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type=text], select {
+    width: 303px;
+    height: 51px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: #d4dddc;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-family: 'poppinsbold';
+    font-size: 15px;
+    color: #5d949e;
+  }
+
+  input[type=password], select {
+    width: 303px;
+    height: 51px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: #d4dddc;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-family: 'poppinsbold';
+    font-size: 15px;
+    color: #5d949e;
+  }
+
+.campo {
+    width: 303px;
+    height: 51px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: #d4dddc;
+}
+
+.embaixo {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixinha {
+    width: 17px;
+    height: 17px;
+    background-color: #d4dddc;
+}
+
+.font01 {
+    font-family: 'poppins';
+    font-size: 13px;
+    color: #20515A;
+}
+
+.check {
+    margin-right: 3px;
+}
+
+::placeholder{
+    color: #5d949e;
+}
+
+#sindico {
+    font-family: 'poppins';
+    font-size: 13px;
+    color: #20515A;
+    padding-left: 30px;
+}
+
+#mudatela {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'poppins';
+    font-size: 13px;
+    color: #20515A;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <main>
+
+            <div class="logo">
+                <img id="circulo" src="images/logo.png">
+            </div>
+            <p class="texto">Síndico</p>
+
+            <div class="campo">
+                <label class="textocamp" for="email"></label>
+                <input type="text" id="email" value="" placeholder="Email">
+            </div>
+
+            <div class="campo">
+                <label class="textocampo" for="senha"></label>
+                <input type="password" id="senha" value="" placeholder="Senha">
+            </div>
+
+            <div class="embaixo">
+                <div>
+                    <input type="checkbox" id="check01" class="check">
+                    <label class="font01" for="check01">Lembrar</label>
+                </div>
+                <a href="esqueceu.html" class="font01">Esqueci minha senha</a>
+            </div>
+
+            <button type="button" onclick="location.href='principal.html'">Login</button>
+            <a href="cadastro.html" class="texto">Ainda não sou cadastrado</a>
+
+            <div id="mudatela">
+                <div>
+                    <input type="checkbox" id="check02" class="check">
+                    <label class="font01" for="check02">Sou Condômino</label>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

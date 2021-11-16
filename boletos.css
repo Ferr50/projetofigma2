@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fontes/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url(fontes/Poppins-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-left: 120px;
+    font-family: 'poppinsbold';
+    color: #5D949E;
+}
+
+button {
+    margin-left: 40px;
+    font-family: 'poppinsbold';
+    padding: 0px;
+    width: 61px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #5d949e;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    opacity: 50%;    
+}
+
+.view {
+    height: 640px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F1EE;
+}
+
+.top-container {
+    height: 100px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltar {
+    height: 30px;
+    filter: invert(100%);
+}
+
+.legenda {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 20px;
+}
+
+.icon2 {
+    height: 20px;
+    filter: invert(55%) sepia(34%) saturate(5537%) hue-rotate(86deg) brightness(124%) contrast(121%);
+
+}
+
+.icon3 {
+    height: 20px;
+    filter: invert(13%) sepia(58%) saturate(7484%) hue-rotate(357deg) brightness(106%) contrast(113%);
+
+}
+
+.font01 {
+    font-family: 'poppins';
+    font-size: 13px;
+    color: #5d949e;
+}
+
+.box-boletos {
+    margin-top: 20px;
+    width: 305px;
+    height: 458px;
+    background-color: #D4DDDC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box01 {
+    width: 95px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
+
+.status {
+    width: 95px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
